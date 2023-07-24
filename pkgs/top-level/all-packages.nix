@@ -41444,4 +41444,6 @@ with pkgs;
   waylyrics = callPackage ../applications/audio/waylyrics { };
 
   gitrs = callPackage ../tools/misc/gitrs { };
+
+  hed = callPackage ../tools/networking/hed { };
 }
